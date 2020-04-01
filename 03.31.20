@@ -1,0 +1,122 @@
+## In an app:
+get
+    import or fetch data, import some functions, grab some html elements 
+initialize
+    some state data
+    set some event listeners 
+set 
+    setting the state in response to user inpput 
+    set the DOM (html elements) in response to state change
+
+*DON'T BE AFRAID TO ASK A LOT OF QUESTIONS, REMINDER THAT YOU ARE RESPONSIBLE FOR LEARNING ALL THIS STUFF 
+
+## On the developer tool console today:
+
+textContent is for everything but inputs
+getElementById  = getting elements in the DOM 
+document.querySelectorAll('span)
+const spans = document.querySelectorAll('span)
+spans.forEach(span =>){
+    span.style.color = 'pink'
+}
+divs.forEach(div) => {
+    div.style.background = 'black'
+    dic.style.color  = 'white'
+}
+
+*ASK about reading values with text input
+
+commit messages should follow the "this commit will..." logic 
+
+## lab 01 on  03.31.20
+
+the stateful situation is how many cups of coffee you're drinking per day 
+the upper limit is 5 cups 
+
+make your repo
+
+npm init
+
+live serve
+
+it works, in body 
+    (in css, html margin: 0, padding:0, height: 100%)
+
+<div class=container> 
+    (in css display" flex, flex direction: column, justify-content: center, align-items: center, background-color: pink, height: 100%)
+add title, water the plants between <h2>
+
+
+plant status: <span id=status>thirsty
+
+current ounces <span ... >
+
+img id=plant, can adjust height and width in the css 
+    (# targets id in html in the css) 
+
+button, id-"water-button" , add water 
+
+In app.js
+
+get by Id (document.getElementById)
+    const button
+    const img
+    const status
+    const ouncesSpan
+
+let ounces = 0; //initialized state
+
+button.addEventListener ('click', () => (
+    ounces++;
+
+    ouncesSpan.textContent = ounces;
+
+    if (ounces > 10){
+        status.textContent = 'oh no...';
+        img.src = "link to sad plant"
+    }
+
+    if (ounces > 20) {
+        status.textContent = 'it is drowned';
+        img.src = "link to sadder plant"
+    }
+))
+
+$ debug steps
+    1. open up the console 
+
+webkit-linear-gradient
+    for CSS, creates a linear gradient 
+
+temp1.value will cast a string in the console
+    if it gives you trouble, wrap around number ()
+
+math.random 
+    randomizes number 
+    math.ceil rounds off to the nearest whole number 
+    math.ceil(math.random)
+
+input type=number 
+function compareNumbers(guess, correct){
+    //if the guess and correct number are identical, return 0, if the guess is lower, return -1, if the guess is higher return 1
+
+}
+
+import compareNumbers from 
+
+## guess number lab 
+app.js
+
+import addSeven.js
+const expected
+const actual
+
+assert.equal (expected, actual)
+
+^^ test
+
+const should be let 
+there are two event listeners, one for resetting and one for reading the amount of submits 
+
+IF EVERYTHING GOES WELL, WHERE CAN I BE IN 5 YEARS
+WHAT VALUE ARE WE ADDING AS A COMPANY?
