@@ -1,6 +1,5 @@
 ## Topics covered:
 - Review Class-01
-- 
 
 ## General Notes:
 * Review from yesterday:
