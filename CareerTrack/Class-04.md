@@ -20,3 +20,4 @@
 
 ## Progress, Realizations, AHA Moments:
 * making a little change to the text to see if I can push up to github
+* making one more local change
