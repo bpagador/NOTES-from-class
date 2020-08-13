@@ -106,7 +106,7 @@
         - add profile image for visual diff
 - auth.js aka routes
     - .post /login
-    - ps. all this belwo is pseudocode:
+    - ps. all this below is pseudocode:
     --
     - find a user by req.body.email
     - if that user doesnt exist, error
